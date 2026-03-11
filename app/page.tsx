@@ -1,5 +1,10 @@
 import { Button } from "@/components/ui/button";
 
+/**
+ * Default page for applications
+ * @returns 
+ */
+
 export default function Home() {
   return (
     <div>
