@@ -1,4 +1,6 @@
 import { Button } from "@/components/ui/button";
+import Header from "./_components/header";
+import Hero from "./_components/hero";
 
 /**
  * Default page for applications
@@ -7,9 +9,9 @@ import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <div>
-      <h1 className = "font-game text-6xl">Byte Quest</h1>
-      <Button>Click me</Button>
+    <div className={"flex flex-col items-center"}>
+      <Header />
+      <Hero />
     </div>
-  )
+  );
 }
